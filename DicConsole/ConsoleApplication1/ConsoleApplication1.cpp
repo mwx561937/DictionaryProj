@@ -7,6 +7,7 @@
 using namespace std;
 
 void thread_proc(void* param,int j) {
+	//  加个注释
 	for (int i=0;i<100;++i)
 	{
 		cout << i << "," << j << endl;
